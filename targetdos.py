@@ -1,1 +1,1 @@
-url = "https://portal.mfua.ru/"
+url = "https://gtahub.gg/"

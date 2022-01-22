@@ -55,7 +55,7 @@ def start_ddos(url, headers, proxies, color):
 		if req.status_code == 200:
 			pass
 		else:
-			print(color + "Сайт скорее всего лежит :) Молодец!")
+			print(color + "Сайт лежит или отсеивает твои запросы :)")
 	except:
 		pass
 
@@ -83,5 +83,4 @@ def main(proxy, url):
 		except FileNotFoundError:
 			print(Fore.RED+"File {} not found.".format(proxy)+Style.RESET_ALL)
 			exit()
-
 main()
